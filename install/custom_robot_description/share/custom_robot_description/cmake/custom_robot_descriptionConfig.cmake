@@ -1,1 +1,0 @@
-/home/berkay/Desktop/custom_robot/build/custom_robot_description/ament_cmake_core/custom_robot_descriptionConfig.cmake
