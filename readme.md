@@ -4,17 +4,21 @@
 
 > This project involves a custom robot simulation in Gazebo, utilizing ROS 2. The robot model is defined using URDF and Xacro files, and the project includes a camera sensor for image processing.
 
-![gazebo.png](/images/gazebo.png)
+![Project Structure Image](/images/rviz.png)
 
 ## Project Structure
 
 The project is structured as follows:
 
 - **Launch File**: `custom_robot_gazebo.launch.xml` - Main launch file to start the Gazebo simulation and RViz visualization.
-- **Camera Subscriber**: `camera_subscriber.cpp` - C++ code to subscribe to the camera topic and process the images.
 
-![Project Structure Image](/images/rviz.png)
-![Camera Structure Image](/images/camera.png)
+- **Camera Subscriber**: `camera_subscriber.cpp` - C++ code to subscribe to the camera topic and process the images.
+  ![Camera Structure Image](/images/camera.png)
+  TODO
+
+- **LiDAR Subscriber**: `lidar_subscriber.cpp `- C++ code to subscribe to the LiDAR topic and process the scanned data.
+
+![gazebo.png](/images/gazebo.png)
 
 ## How to Run
 
