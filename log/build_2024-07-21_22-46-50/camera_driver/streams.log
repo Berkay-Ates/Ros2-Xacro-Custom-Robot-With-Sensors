@@ -1,0 +1,23 @@
+[0.086s] Invoking command in '/home/berkay/Desktop/custom_robot/build/camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --build /home/berkay/Desktop/custom_robot/build/camera_driver -- -j16 -l16
+[0.144s] [100%] Built target camera_subscriber
+[0.157s] Invoked command in '/home/berkay/Desktop/custom_robot/build/camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --build /home/berkay/Desktop/custom_robot/build/camera_driver -- -j16 -l16
+[0.229s] Invoking command in '/home/berkay/Desktop/custom_robot/build/camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --install /home/berkay/Desktop/custom_robot/build/camera_driver
+[0.237s] -- Install configuration: ""
+[0.237s] -- Execute custom install script
+[0.237s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/lib/camera_driver/camera_subscriber
+[0.237s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/package_run_dependencies/camera_driver
+[0.238s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/parent_prefix_path/camera_driver
+[0.238s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/ament_prefix_path.sh
+[0.238s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/ament_prefix_path.dsv
+[0.238s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/path.sh
+[0.238s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/path.dsv
+[0.238s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.bash
+[0.238s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.sh
+[0.239s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.zsh
+[0.239s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.dsv
+[0.239s] -- Symlinking: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/package.dsv
+[0.250s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/packages/camera_driver
+[0.250s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/cmake/camera_driverConfig.cmake
+[0.250s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/cmake/camera_driverConfig-version.cmake
+[0.250s] -- Up-to-date symlink: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/package.xml
+[0.387s] Invoked command in '/home/berkay/Desktop/custom_robot/build/camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --install /home/berkay/Desktop/custom_robot/build/camera_driver

@@ -1,0 +1,9 @@
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/uninstall.dir
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/custom_robot_bringup_uninstall.dir
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/test.dir
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/edit_cache.dir
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/rebuild_cache.dir
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/list_install_components.dir
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/install.dir
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/install/local.dir
+/home/berkay/Desktop/custom_robot/build/custom_robot_bringup/CMakeFiles/install/strip.dir

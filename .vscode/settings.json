@@ -1,0 +1,14 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/local/lib/python3.10/dist-packages",
+    "/home/berkay/ros2_ws/install/my_package_python/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/local/lib/python3.10/dist-packages",
+    "/home/berkay/ros2_ws/install/my_package_python/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ]
+}

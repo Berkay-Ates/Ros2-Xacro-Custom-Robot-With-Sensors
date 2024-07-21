@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_subscriber[0m
+[100%] Built target camera_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/lib/camera_driver/camera_subscriber
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/package_run_dependencies/camera_driver
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/parent_prefix_path/camera_driver
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/path.sh
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/path.dsv
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.bash
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.sh
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.zsh
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.dsv
+-- Installing: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/package.dsv
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/packages/camera_driver
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/cmake/camera_driverConfig.cmake
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/cmake/camera_driverConfig-version.cmake
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/package.xml

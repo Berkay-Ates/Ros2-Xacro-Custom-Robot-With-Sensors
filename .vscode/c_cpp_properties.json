@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/berkay/Desktop/custom_robot/src/camera_driver/include/**",
+        "/home/berkay/Desktop/custom_robot/src/custom_robot_bringup/include/**",
+        "/home/berkay/Desktop/custom_robot/src/custom_robot_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

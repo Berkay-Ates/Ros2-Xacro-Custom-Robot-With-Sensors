@@ -1,0 +1,1 @@
+/home/berkay/Desktop/custom_robot/build/camera_driver/ament_cmake_environment_hooks/local_setup.sh

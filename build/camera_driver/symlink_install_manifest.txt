@@ -1,0 +1,16 @@
+/home/berkay/Desktop/custom_robot/install/camera_driver/lib/camera_driver/camera_subscriber
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/package_run_dependencies/camera_driver
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/parent_prefix_path/camera_driver
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/ament_prefix_path.sh
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/ament_prefix_path.dsv
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/path.sh
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/path.dsv
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.bash
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.sh
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.zsh
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.dsv
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/package.dsv
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/packages/camera_driver
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/cmake/camera_driverConfig.cmake
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/cmake/camera_driverConfig-version.cmake
+/home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/package.xml
