@@ -60,6 +60,7 @@ The project is structured as follows:
 1.  Add more sensors to the robot model.
 2.  Implement advanced image processing algorithms.
 3.  Integrate with other ROS 2 packages for extended functionality.
+4.  Implement Lidar Sensor Subscriber Node
 
 ## Notes
 
