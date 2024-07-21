@@ -18,7 +18,7 @@ The project is structured as follows:
 
 - **LiDAR Subscriber**: `lidar_subscriber.cpp `- C++ code to subscribe to the LiDAR topic and process the scanned data.
 
-![gazebo.png](/images/gazebo.png)
+![gazebo.png](/images/gazebo_new.png)
 
 ## How to Run
 
