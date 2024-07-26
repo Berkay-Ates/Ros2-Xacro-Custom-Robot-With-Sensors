@@ -1,0 +1,190 @@
+[0.908s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lidar_driver']
+[0.908s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lidar_driver'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c4bd6084460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c4bd605f100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c4bd605f100>>)
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.950s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/berkay/Desktop/custom_robot'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'ros'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['cmake', 'python']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'cmake'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extensions ['python_setup_py']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(images) by extension 'python_setup_py'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'colcon_pkg'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['colcon_meta']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_driver) by extension 'ros'
+[0.965s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_driver' with type 'ros.ament_cmake' and name 'camera_driver'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extension 'ignore'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extensions ['colcon_meta']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extension 'colcon_meta'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extensions ['ros']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_bringup) by extension 'ros'
+[0.966s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_robot_bringup' with type 'ros.ament_cmake' and name 'custom_robot_bringup'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extension 'ignore'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extension 'ignore_ament_install'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extensions ['colcon_pkg']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extension 'colcon_pkg'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_robot_description) by extension 'ros'
+[0.966s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_robot_description' with type 'ros.ament_cmake' and name 'custom_robot_description'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extension 'ignore'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extension 'ignore_ament_install'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extensions ['colcon_pkg']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extension 'colcon_pkg'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extensions ['colcon_meta']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extension 'colcon_meta'
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extensions ['ros']
+[0.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_driver) by extension 'ros'
+[0.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_driver' with type 'ros.ament_cmake' and name 'lidar_driver'
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_driver' in 'src/camera_driver'
+[1.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_robot_description' in 'src/custom_robot_description'
+[1.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_robot_bringup' in 'src/custom_robot_bringup'
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.077s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/berkay/Desktop/my_turtle_catcher/install
+[1.090s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/berkay/Desktop/custom_robot/install
+[1.104s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/berkay/ros2_ws/install
+[1.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[1.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'cmake_args' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'cmake_target' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.221s] Level 5:colcon.colcon_core.verb:set package 'lidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.221s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/berkay/Desktop/custom_robot/build/lidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/berkay/Desktop/custom_robot/install/lidar_driver', 'merge_install': False, 'path': '/home/berkay/Desktop/custom_robot/src/lidar_driver', 'symlink_install': False, 'test_result_base': None}
+[1.234s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/berkay/Desktop/custom_robot/src/lidar_driver' with build type 'ament_cmake'
+[1.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/berkay/Desktop/custom_robot/src/lidar_driver'
+[1.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/berkay/Desktop/custom_robot/build/lidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --build /home/berkay/Desktop/custom_robot/build/lidar_driver -- -j16 -l16
+[8.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/berkay/Desktop/custom_robot/build/lidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --build /home/berkay/Desktop/custom_robot/build/lidar_driver -- -j16 -l16
+[8.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/berkay/Desktop/custom_robot/build/lidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --install /home/berkay/Desktop/custom_robot/build/lidar_driver
+[8.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_driver)
+[8.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/berkay/Desktop/custom_robot/build/lidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --install /home/berkay/Desktop/custom_robot/build/lidar_driver
+[8.738s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver' for CMake module files
+[8.739s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver' for CMake config files
+[8.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_driver', 'cmake_prefix_path')
+[8.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/hook/cmake_prefix_path.ps1'
+[8.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/hook/cmake_prefix_path.dsv'
+[8.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/hook/cmake_prefix_path.sh'
+[8.755s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/lib'
+[8.755s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/bin'
+[8.755s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/lib/pkgconfig/lidar_driver.pc'
+[8.755s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/lib/python3.10/site-packages'
+[8.755s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/bin'
+[8.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.ps1'
+[8.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.dsv'
+[8.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.sh'
+[8.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.bash'
+[8.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.zsh'
+[8.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/berkay/Desktop/custom_robot/install/lidar_driver/share/colcon-core/packages/lidar_driver)
+[8.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_driver)
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver' for CMake module files
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver' for CMake config files
+[8.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_driver', 'cmake_prefix_path')
+[8.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/hook/cmake_prefix_path.ps1'
+[8.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/hook/cmake_prefix_path.dsv'
+[8.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/hook/cmake_prefix_path.sh'
+[8.843s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/lib'
+[8.843s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/bin'
+[8.843s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/lib/pkgconfig/lidar_driver.pc'
+[8.844s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/lib/python3.10/site-packages'
+[8.844s] Level 1:colcon.colcon_core.environment:checking '/home/berkay/Desktop/custom_robot/install/lidar_driver/bin'
+[8.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.ps1'
+[8.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.dsv'
+[8.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.sh'
+[8.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.bash'
+[8.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.zsh'
+[8.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/berkay/Desktop/custom_robot/install/lidar_driver/share/colcon-core/packages/lidar_driver)
+[8.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.859s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.878s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.888s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berkay/Desktop/custom_robot/install/local_setup.ps1'
+[8.903s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/berkay/Desktop/custom_robot/install/_local_setup_util_ps1.py'
+[8.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berkay/Desktop/custom_robot/install/setup.ps1'
+[8.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berkay/Desktop/custom_robot/install/local_setup.sh'
+[8.918s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/berkay/Desktop/custom_robot/install/_local_setup_util_sh.py'
+[8.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berkay/Desktop/custom_robot/install/setup.sh'
+[8.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berkay/Desktop/custom_robot/install/local_setup.bash'
+[8.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berkay/Desktop/custom_robot/install/setup.bash'
+[8.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/berkay/Desktop/custom_robot/install/local_setup.zsh'
+[8.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/berkay/Desktop/custom_robot/install/setup.zsh'

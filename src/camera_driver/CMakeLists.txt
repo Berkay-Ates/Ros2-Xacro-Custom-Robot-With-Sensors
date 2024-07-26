@@ -14,22 +14,20 @@ find_package(image_transport REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 
-add_executable(camera_subscriber src/camera_subscriber.cpp)
+add_executable(camera_subscriber_node src/camera_subscriber.cpp)
 
 # Specify include directories
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 # Specify libraries to link against
-target_link_libraries(camera_subscriber ${OpenCV_LIBS})
+target_link_libraries(camera_subscriber_node ${OpenCV_LIBS})
 
 # Specify ament dependencies
-ament_target_dependencies(camera_subscriber rclcpp sensor_msgs cv_bridge)
-
-ament_target_dependencies(camera_subscriber rclcpp sensor_msgs image_transport cv_bridge)
+ament_target_dependencies(camera_subscriber_node rclcpp sensor_msgs image_transport cv_bridge)
 
 
 install(TARGETS
-  camera_subscriber
+  camera_subscriber_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

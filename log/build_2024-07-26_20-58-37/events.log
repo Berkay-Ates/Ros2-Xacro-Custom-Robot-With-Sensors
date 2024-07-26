@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000651] (-) JobUnselected: {'identifier': 'custom_robot_bringup'}
+[0.000779] (-) JobUnselected: {'identifier': 'custom_robot_description'}
+[0.000857] (-) JobUnselected: {'identifier': 'lidar_driver'}
+[0.000901] (camera_driver) JobQueued: {'identifier': 'camera_driver', 'dependencies': OrderedDict()}
+[0.000958] (camera_driver) JobStarted: {'identifier': 'camera_driver'}
+[0.090996] (camera_driver) JobProgress: {'identifier': 'camera_driver', 'progress': 'cmake'}
+[0.091441] (camera_driver) JobProgress: {'identifier': 'camera_driver', 'progress': 'build'}
+[0.092049] (camera_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/berkay/Desktop/custom_robot/build/camera_driver', '--', '-j16', '-l16'], 'cwd': '/home/berkay/Desktop/custom_robot/build/camera_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'berkay'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/berkay'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '7396'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/berkay/Desktop/my_turtle_catcher/install:/home/berkay/Desktop/custom_robot/install:/home/berkay/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'berkay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'berkay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/berkay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/berkay-OMEN-Laptop-15-en1xxx:@/tmp/.ICE-unix/1679,unix/berkay-OMEN-Laptop-15-en1xxx:/tmp/.ICE-unix/1679'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a59e92c_b6a0_4f8e_8b10_615eabef7d30'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.STLGR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/berkay/Desktop/custom_robot/install/custom_robot_bringup:/home/berkay/Desktop/custom_robot/install/custom_robot_description:/home/berkay/Desktop/custom_robot/install/camera_driver:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_launcher:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catch_them:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types:/home/berkay/ros2_ws/install/my_package_python:/home/berkay/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64'), ('PWD', '/home/berkay/Desktop/custom_robot/build/camera_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/local/lib/python3.10/dist-packages:/home/berkay/ros2_ws/install/my_package_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/berkay/Desktop/custom_robot/install/custom_robot_bringup:/home/berkay/Desktop/custom_robot/install/custom_robot_description:/home/berkay/Desktop/custom_robot/install/camera_driver:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_launcher:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catch_them:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types:/home/berkay/ros2_ws/install/my_package:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble')]), 'shell': False}
+[0.099608] (-) TimerEvent: {}
+[0.137955] (camera_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199707] (-) TimerEvent: {}
+[0.274286] (camera_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299811] (-) TimerEvent: {}
+[0.316511] (camera_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.320207] (camera_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.327810] (camera_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.341808] (camera_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.358600] (camera_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399985] (-) TimerEvent: {}
+[0.419723] (camera_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.421807] (camera_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500054] (-) TimerEvent: {}
+[0.556247] (camera_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600146] (-) TimerEvent: {}
+[0.697304] (camera_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.700208] (-) TimerEvent: {}
+[0.800419] (-) TimerEvent: {}
+[0.806280] (camera_driver) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.843202] (camera_driver) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.900502] (-) TimerEvent: {}
+[0.917877] (camera_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.932916] (camera_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[0.935115] (camera_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/berkay/Desktop/custom_robot/build/camera_driver\n'}
+[0.978512] (camera_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_subscriber_node.dir/src/camera_subscriber.cpp.o\x1b[0m\n'}
+[1.000619] (-) TimerEvent: {}
+[1.100923] (-) TimerEvent: {}
+[1.201419] (-) TimerEvent: {}
+[1.301710] (-) TimerEvent: {}
+[1.401995] (-) TimerEvent: {}
+[1.502296] (-) TimerEvent: {}
+[1.602614] (-) TimerEvent: {}
+[1.702906] (-) TimerEvent: {}
+[1.803196] (-) TimerEvent: {}
+[1.903516] (-) TimerEvent: {}
+[2.003931] (-) TimerEvent: {}
+[2.104272] (-) TimerEvent: {}
+[2.204572] (-) TimerEvent: {}
+[2.304871] (-) TimerEvent: {}
+[2.405178] (-) TimerEvent: {}
+[2.505493] (-) TimerEvent: {}
+[2.605823] (-) TimerEvent: {}
+[2.706166] (-) TimerEvent: {}
+[2.806425] (-) TimerEvent: {}
+[2.906685] (-) TimerEvent: {}
+[3.006975] (-) TimerEvent: {}
+[3.107368] (-) TimerEvent: {}
+[3.207620] (-) TimerEvent: {}
+[3.307897] (-) TimerEvent: {}
+[3.408217] (-) TimerEvent: {}
+[3.508557] (-) TimerEvent: {}
+[3.608825] (-) TimerEvent: {}
+[3.709092] (-) TimerEvent: {}
+[3.809439] (-) TimerEvent: {}
+[3.909833] (-) TimerEvent: {}
+[4.010088] (-) TimerEvent: {}
+[4.110378] (-) TimerEvent: {}
+[4.210742] (-) TimerEvent: {}
+[4.311022] (-) TimerEvent: {}
+[4.411302] (-) TimerEvent: {}
+[4.511607] (-) TimerEvent: {}
+[4.612012] (-) TimerEvent: {}
+[4.712298] (-) TimerEvent: {}
+[4.812584] (-) TimerEvent: {}
+[4.912935] (-) TimerEvent: {}
+[5.013413] (-) TimerEvent: {}
+[5.113704] (-) TimerEvent: {}
+[5.214006] (-) TimerEvent: {}
+[5.314339] (-) TimerEvent: {}
+[5.414625] (-) TimerEvent: {}
+[5.514909] (-) TimerEvent: {}
+[5.615225] (-) TimerEvent: {}
+[5.715585] (-) TimerEvent: {}
+[5.815875] (-) TimerEvent: {}
+[5.916178] (-) TimerEvent: {}
+[6.016565] (-) TimerEvent: {}
+[6.116992] (-) TimerEvent: {}
+[6.217314] (-) TimerEvent: {}
+[6.317624] (-) TimerEvent: {}
+[6.418023] (-) TimerEvent: {}
+[6.518300] (-) TimerEvent: {}
+[6.618600] (-) TimerEvent: {}
+[6.718924] (-) TimerEvent: {}
+[6.819271] (-) TimerEvent: {}
+[6.919542] (-) TimerEvent: {}
+[7.019830] (-) TimerEvent: {}
+[7.120183] (-) TimerEvent: {}
+[7.220579] (-) TimerEvent: {}
+[7.320832] (-) TimerEvent: {}
+[7.421091] (-) TimerEvent: {}
+[7.521321] (-) TimerEvent: {}
+[7.621592] (-) TimerEvent: {}
+[7.721862] (-) TimerEvent: {}
+[7.822157] (-) TimerEvent: {}
+[7.922511] (-) TimerEvent: {}
+[8.022773] (-) TimerEvent: {}
+[8.123029] (-) TimerEvent: {}
+[8.223289] (-) TimerEvent: {}
+[8.323574] (-) TimerEvent: {}
+[8.423871] (-) TimerEvent: {}
+[8.524155] (-) TimerEvent: {}
+[8.624513] (-) TimerEvent: {}
+[8.635125] (camera_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_subscriber_node\x1b[0m\n'}
+[8.724540] (-) TimerEvent: {}
+[8.824838] (-) TimerEvent: {}
+[8.925127] (-) TimerEvent: {}
+[9.025441] (-) TimerEvent: {}
+[9.125745] (-) TimerEvent: {}
+[9.226073] (-) TimerEvent: {}
+[9.298385] (camera_driver) StdoutLine: {'line': b'[100%] Built target camera_subscriber_node\n'}
+[9.311020] (camera_driver) CommandEnded: {'returncode': 0}
+[9.326170] (-) TimerEvent: {}
+[9.339696] (camera_driver) JobProgress: {'identifier': 'camera_driver', 'progress': 'install'}
+[9.349730] (camera_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/berkay/Desktop/custom_robot/build/camera_driver'], 'cwd': '/home/berkay/Desktop/custom_robot/build/camera_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'berkay'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/berkay'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '7396'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/berkay/Desktop/my_turtle_catcher/install:/home/berkay/Desktop/custom_robot/install:/home/berkay/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'berkay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'berkay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/berkay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/berkay-OMEN-Laptop-15-en1xxx:@/tmp/.ICE-unix/1679,unix/berkay-OMEN-Laptop-15-en1xxx:/tmp/.ICE-unix/1679'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a59e92c_b6a0_4f8e_8b10_615eabef7d30'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.STLGR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/berkay/Desktop/custom_robot/install/custom_robot_bringup:/home/berkay/Desktop/custom_robot/install/custom_robot_description:/home/berkay/Desktop/custom_robot/install/camera_driver:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_launcher:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catch_them:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types:/home/berkay/ros2_ws/install/my_package_python:/home/berkay/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64'), ('PWD', '/home/berkay/Desktop/custom_robot/build/camera_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/local/lib/python3.10/dist-packages:/home/berkay/ros2_ws/install/my_package_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/berkay/Desktop/custom_robot/install/custom_robot_bringup:/home/berkay/Desktop/custom_robot/install/custom_robot_description:/home/berkay/Desktop/custom_robot/install/camera_driver:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_launcher:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catch_them:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types:/home/berkay/ros2_ws/install/my_package:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble')]), 'shell': False}
+[9.358606] (camera_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.358919] (camera_driver) StdoutLine: {'line': b'-- Installing: /home/berkay/Desktop/custom_robot/install/camera_driver/lib/camera_driver/camera_subscriber_node\n'}
+[9.365100] (camera_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/berkay/Desktop/custom_robot/install/camera_driver/lib/camera_driver/camera_subscriber_node" to ""\n'}
+[9.365249] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/package_run_dependencies/camera_driver\n'}
+[9.365346] (camera_driver) StdoutLine: {'line': b'-- Installing: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/parent_prefix_path/camera_driver\n'}
+[9.365455] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/ament_prefix_path.sh\n'}
+[9.365560] (camera_driver) StdoutLine: {'line': b'-- Installing: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/ament_prefix_path.dsv\n'}
+[9.365662] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/path.sh\n'}
+[9.365756] (camera_driver) StdoutLine: {'line': b'-- Installing: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/environment/path.dsv\n'}
+[9.365856] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.bash\n'}
+[9.365987] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.sh\n'}
+[9.366068] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.zsh\n'}
+[9.366171] (camera_driver) StdoutLine: {'line': b'-- Installing: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/local_setup.dsv\n'}
+[9.366251] (camera_driver) StdoutLine: {'line': b'-- Installing: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/package.dsv\n'}
+[9.366345] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/ament_index/resource_index/packages/camera_driver\n'}
+[9.366472] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/cmake/camera_driverConfig.cmake\n'}
+[9.366549] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/cmake/camera_driverConfig-version.cmake\n'}
+[9.366622] (camera_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/camera_driver/share/camera_driver/package.xml\n'}
+[9.368234] (camera_driver) CommandEnded: {'returncode': 0}
+[9.426261] (-) TimerEvent: {}
+[9.504267] (camera_driver) JobEnded: {'identifier': 'camera_driver', 'rc': 0}
+[9.504845] (-) EventReactorShutdown: {}

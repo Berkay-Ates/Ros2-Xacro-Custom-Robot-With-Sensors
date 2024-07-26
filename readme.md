@@ -46,7 +46,11 @@ The project is structured as follows:
    ```
 4. **Run the Camera Subscriber Node:**:
    ```sh
-   ros2 run custom_package camera_subscriber
+   ros2 run camera_driver camera_subscriber_node
+   ```
+5. **Run the Lidar Subscriber Node:**:
+   ```sh
+   ros2 run lidar_driver lidar_subscriber_node
    ```
 
 ## Purpose
@@ -60,7 +64,7 @@ The project is structured as follows:
 1.  Add more sensors to the robot model.
 2.  Implement advanced image processing algorithms.
 3.  Integrate with other ROS 2 packages for extended functionality.
-4.  Implement Lidar Sensor Subscriber Node
+4.  Implement Autonomous Algorithm using camera and lidar sensor data.
 
 ## Notes
 

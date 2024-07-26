@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_subscriber_node[0m
+[100%] Built target lidar_subscriber_node
+-- Install configuration: ""
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/lib/lidar_driver/lidar_subscriber_node
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/package_run_dependencies/lidar_driver
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/parent_prefix_path/lidar_driver
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/path.sh
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/path.dsv
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.bash
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.sh
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.zsh
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.dsv
+-- Installing: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.dsv
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/packages/lidar_driver
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/cmake/lidar_driverConfig.cmake
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/cmake/lidar_driverConfig-version.cmake
+-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.xml

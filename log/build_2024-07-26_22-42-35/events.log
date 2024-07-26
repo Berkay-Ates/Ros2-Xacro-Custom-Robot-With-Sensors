@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000594] (-) JobUnselected: {'identifier': 'camera_driver'}
+[0.000758] (-) JobUnselected: {'identifier': 'custom_robot_bringup'}
+[0.000896] (-) JobUnselected: {'identifier': 'custom_robot_description'}
+[0.000993] (lidar_driver) JobQueued: {'identifier': 'lidar_driver', 'dependencies': OrderedDict()}
+[0.001101] (lidar_driver) JobStarted: {'identifier': 'lidar_driver'}
+[0.092104] (lidar_driver) JobProgress: {'identifier': 'lidar_driver', 'progress': 'cmake'}
+[0.092608] (lidar_driver) JobProgress: {'identifier': 'lidar_driver', 'progress': 'build'}
+[0.093139] (lidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/berkay/Desktop/custom_robot/build/lidar_driver', '--', '-j16', '-l16'], 'cwd': '/home/berkay/Desktop/custom_robot/build/lidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'berkay'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/berkay'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '7396'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/berkay/Desktop/my_turtle_catcher/install:/home/berkay/Desktop/custom_robot/install:/home/berkay/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'berkay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'berkay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/berkay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/berkay-OMEN-Laptop-15-en1xxx:@/tmp/.ICE-unix/1679,unix/berkay-OMEN-Laptop-15-en1xxx:/tmp/.ICE-unix/1679'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a59e92c_b6a0_4f8e_8b10_615eabef7d30'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.STLGR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/berkay/Desktop/custom_robot/install/lidar_driver:/home/berkay/Desktop/custom_robot/install/custom_robot_bringup:/home/berkay/Desktop/custom_robot/install/custom_robot_description:/home/berkay/Desktop/custom_robot/install/camera_driver:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_launcher:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catch_them:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types:/home/berkay/ros2_ws/install/my_package_python:/home/berkay/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64'), ('PWD', '/home/berkay/Desktop/custom_robot/build/lidar_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/local/lib/python3.10/dist-packages:/home/berkay/ros2_ws/install/my_package_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/berkay/Desktop/custom_robot/install/lidar_driver:/home/berkay/Desktop/custom_robot/install/custom_robot_bringup:/home/berkay/Desktop/custom_robot/install/custom_robot_description:/home/berkay/Desktop/custom_robot/install/camera_driver:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_launcher:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catch_them:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types:/home/berkay/ros2_ws/install/my_package:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble')]), 'shell': False}
+[0.099718] (-) TimerEvent: {}
+[0.147885] (lidar_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_subscriber_node\x1b[0m\n'}
+[0.171335] (lidar_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_subscriber_node.dir/src/lidar_subscriber.cpp.o\x1b[0m\n'}
+[0.199820] (-) TimerEvent: {}
+[0.300102] (-) TimerEvent: {}
+[0.400446] (-) TimerEvent: {}
+[0.500804] (-) TimerEvent: {}
+[0.601092] (-) TimerEvent: {}
+[0.701410] (-) TimerEvent: {}
+[0.801896] (-) TimerEvent: {}
+[0.902331] (-) TimerEvent: {}
+[1.002666] (-) TimerEvent: {}
+[1.102989] (-) TimerEvent: {}
+[1.203315] (-) TimerEvent: {}
+[1.303645] (-) TimerEvent: {}
+[1.403986] (-) TimerEvent: {}
+[1.504410] (-) TimerEvent: {}
+[1.604909] (-) TimerEvent: {}
+[1.705311] (-) TimerEvent: {}
+[1.805688] (-) TimerEvent: {}
+[1.906040] (-) TimerEvent: {}
+[2.006480] (-) TimerEvent: {}
+[2.106792] (-) TimerEvent: {}
+[2.207156] (-) TimerEvent: {}
+[2.288104] (lidar_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LidarSubscriber::callbackLidarData(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.288390] (lidar_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:29:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.288472] (lidar_driver) StderrLine: {'line': b'   29 |             for (i=0;\x1b[01;35m\x1b[Ki<ranges.size()\x1b[m\x1b[K;i++)\n'}
+[2.288535] (lidar_driver) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.289153] (lidar_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:45:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.289235] (lidar_driver) StderrLine: {'line': b'   45 |             for (i=0;\x1b[01;35m\x1b[Ki<intensity.size()\x1b[m\x1b[K;i++)\n'}
+[2.289298] (lidar_driver) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.307310] (-) TimerEvent: {}
+[2.407607] (-) TimerEvent: {}
+[2.507875] (-) TimerEvent: {}
+[2.608216] (-) TimerEvent: {}
+[2.708617] (-) TimerEvent: {}
+[2.808890] (-) TimerEvent: {}
+[2.909214] (-) TimerEvent: {}
+[3.009552] (-) TimerEvent: {}
+[3.109995] (-) TimerEvent: {}
+[3.210255] (-) TimerEvent: {}
+[3.310527] (-) TimerEvent: {}
+[3.410803] (-) TimerEvent: {}
+[3.511073] (-) TimerEvent: {}
+[3.611314] (-) TimerEvent: {}
+[3.711610] (-) TimerEvent: {}
+[3.811972] (-) TimerEvent: {}
+[3.912240] (-) TimerEvent: {}
+[4.012517] (-) TimerEvent: {}
+[4.112813] (-) TimerEvent: {}
+[4.213155] (-) TimerEvent: {}
+[4.313430] (-) TimerEvent: {}
+[4.413722] (-) TimerEvent: {}
+[4.514041] (-) TimerEvent: {}
+[4.614439] (-) TimerEvent: {}
+[4.714741] (-) TimerEvent: {}
+[4.815013] (-) TimerEvent: {}
+[4.915315] (-) TimerEvent: {}
+[5.015605] (-) TimerEvent: {}
+[5.115862] (-) TimerEvent: {}
+[5.216154] (-) TimerEvent: {}
+[5.316564] (-) TimerEvent: {}
+[5.416938] (-) TimerEvent: {}
+[5.517192] (-) TimerEvent: {}
+[5.617524] (-) TimerEvent: {}
+[5.717933] (-) TimerEvent: {}
+[5.818210] (-) TimerEvent: {}
+[5.918498] (-) TimerEvent: {}
+[6.018825] (-) TimerEvent: {}
+[6.119091] (-) TimerEvent: {}
+[6.219415] (-) TimerEvent: {}
+[6.319750] (-) TimerEvent: {}
+[6.420024] (-) TimerEvent: {}
+[6.520265] (-) TimerEvent: {}
+[6.620541] (-) TimerEvent: {}
+[6.720817] (-) TimerEvent: {}
+[6.821177] (-) TimerEvent: {}
+[6.921451] (-) TimerEvent: {}
+[7.021733] (-) TimerEvent: {}
+[7.121995] (-) TimerEvent: {}
+[7.189934] (lidar_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_subscriber_node\x1b[0m\n'}
+[7.222092] (-) TimerEvent: {}
+[7.322391] (-) TimerEvent: {}
+[7.422694] (-) TimerEvent: {}
+[7.512287] (lidar_driver) StdoutLine: {'line': b'[100%] Built target lidar_subscriber_node\n'}
+[7.522832] (-) TimerEvent: {}
+[7.526854] (lidar_driver) CommandEnded: {'returncode': 0}
+[7.557588] (lidar_driver) JobProgress: {'identifier': 'lidar_driver', 'progress': 'install'}
+[7.568693] (lidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/berkay/Desktop/custom_robot/build/lidar_driver'], 'cwd': '/home/berkay/Desktop/custom_robot/build/lidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'berkay'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/berkay'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '7396'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/berkay/Desktop/my_turtle_catcher/install:/home/berkay/Desktop/custom_robot/install:/home/berkay/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'berkay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'berkay'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/berkay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/berkay-OMEN-Laptop-15-en1xxx:@/tmp/.ICE-unix/1679,unix/berkay-OMEN-Laptop-15-en1xxx:/tmp/.ICE-unix/1679'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a59e92c_b6a0_4f8e_8b10_615eabef7d30'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.STLGR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/berkay/Desktop/custom_robot/install/lidar_driver:/home/berkay/Desktop/custom_robot/install/custom_robot_bringup:/home/berkay/Desktop/custom_robot/install/custom_robot_description:/home/berkay/Desktop/custom_robot/install/camera_driver:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_launcher:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catch_them:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types:/home/berkay/ros2_ws/install/my_package_python:/home/berkay/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-8-openjdk-amd64'), ('PWD', '/home/berkay/Desktop/custom_robot/build/lidar_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types/local/lib/python3.10/dist-packages:/home/berkay/ros2_ws/install/my_package_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/berkay/Desktop/custom_robot/install/lidar_driver:/home/berkay/Desktop/custom_robot/install/custom_robot_bringup:/home/berkay/Desktop/custom_robot/install/custom_robot_description:/home/berkay/Desktop/custom_robot/install/camera_driver:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_launcher:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catch_them:/home/berkay/Desktop/my_turtle_catcher/install/my_turtle_catcher_data_types:/home/berkay/ros2_ws/install/my_package:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble')]), 'shell': False}
+[7.578405] (lidar_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.578630] (lidar_driver) StdoutLine: {'line': b'-- Installing: /home/berkay/Desktop/custom_robot/install/lidar_driver/lib/lidar_driver/lidar_subscriber_node\n'}
+[7.584252] (lidar_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/berkay/Desktop/custom_robot/install/lidar_driver/lib/lidar_driver/lidar_subscriber_node" to ""\n'}
+[7.584583] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/package_run_dependencies/lidar_driver\n'}
+[7.584738] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/parent_prefix_path/lidar_driver\n'}
+[7.584815] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/ament_prefix_path.sh\n'}
+[7.584894] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/ament_prefix_path.dsv\n'}
+[7.584972] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/path.sh\n'}
+[7.585062] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/path.dsv\n'}
+[7.585132] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.bash\n'}
+[7.585185] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.sh\n'}
+[7.585248] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.zsh\n'}
+[7.585326] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.dsv\n'}
+[7.585406] (lidar_driver) StdoutLine: {'line': b'-- Installing: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.dsv\n'}
+[7.585474] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/packages/lidar_driver\n'}
+[7.585539] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/cmake/lidar_driverConfig.cmake\n'}
+[7.585603] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/cmake/lidar_driverConfig-version.cmake\n'}
+[7.585667] (lidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.xml\n'}
+[7.588123] (lidar_driver) CommandEnded: {'returncode': 0}
+[7.622918] (-) TimerEvent: {}
+[7.723598] (-) TimerEvent: {}
+[7.732064] (lidar_driver) JobEnded: {'identifier': 'lidar_driver', 'rc': 0}
+[7.732683] (-) EventReactorShutdown: {}

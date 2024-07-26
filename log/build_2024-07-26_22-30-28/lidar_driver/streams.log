@@ -1,0 +1,26 @@
+[0.088s] Invoking command in '/home/berkay/Desktop/custom_robot/build/lidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --build /home/berkay/Desktop/custom_robot/build/lidar_driver -- -j16 -l16
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target lidar_subscriber_node[0m
+[0.160s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_subscriber_node.dir/src/lidar_subscriber.cpp.o[0m
+[7.128s] [100%] [32m[1mLinking CXX executable lidar_subscriber_node[0m
+[7.458s] [100%] Built target lidar_subscriber_node
+[7.472s] Invoked command in '/home/berkay/Desktop/custom_robot/build/lidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --build /home/berkay/Desktop/custom_robot/build/lidar_driver -- -j16 -l16
+[7.514s] Invoking command in '/home/berkay/Desktop/custom_robot/build/lidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --install /home/berkay/Desktop/custom_robot/build/lidar_driver
+[7.524s] -- Install configuration: ""
+[7.524s] -- Installing: /home/berkay/Desktop/custom_robot/install/lidar_driver/lib/lidar_driver/lidar_subscriber_node
+[7.529s] -- Set runtime path of "/home/berkay/Desktop/custom_robot/install/lidar_driver/lib/lidar_driver/lidar_subscriber_node" to ""
+[7.529s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/package_run_dependencies/lidar_driver
+[7.529s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/parent_prefix_path/lidar_driver
+[7.529s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/ament_prefix_path.sh
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/ament_prefix_path.dsv
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/path.sh
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/path.dsv
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.bash
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.sh
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.zsh
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.dsv
+[7.530s] -- Installing: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.dsv
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/packages/lidar_driver
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/cmake/lidar_driverConfig.cmake
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/cmake/lidar_driverConfig-version.cmake
+[7.530s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.xml
+[7.532s] Invoked command in '/home/berkay/Desktop/custom_robot/build/lidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --install /home/berkay/Desktop/custom_robot/build/lidar_driver

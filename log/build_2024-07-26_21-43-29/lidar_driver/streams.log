@@ -1,0 +1,79 @@
+[0.088s] Invoking command in '/home/berkay/Desktop/custom_robot/build/lidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --build /home/berkay/Desktop/custom_robot/build/lidar_driver -- -j16 -l16
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target lidar_subscriber_node[0m
+[0.162s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_subscriber_node.dir/src/lidar_subscriber.cpp.o[0m
+[2.335s] [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:[m[K In member function ‘[01m[Kvoid LidarSubscriber::callbackLidarData(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.335s] [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:24:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.335s]    24 |         for ( i = 0; [01;35m[Ki < data.size()[m[K; i++)
+[2.335s]       |                      [01;35m[K~~^~~~~~~~~~~~~[m[K
+[2.335s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.335s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.336s]                  from [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:1[m[K:
+[2.336s] [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:26:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.336s]    26 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"%ld"[m[K,[32m[Kdata.at(i)[m[K);
+[2.336s]       |                                             [01;35m[K^~~~~[m[K [32m[K~~~~~~~~~~[m[K
+[2.336s]       |                                                          [32m[K|[m[K
+[2.336s]       |                                                          [32m[Kdouble[m[K
+[2.336s] [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:26:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.337s]    26 |             RCLCPP_WARN(this->get_logger(), "[01;36m[K%ld[m[K",data.at(i));
+[2.337s]       |                                              [01;36m[K~~^[m[K
+[2.337s]       |                                                [01;36m[K|[m[K
+[2.337s]       |                                                [01;36m[Klong int[m[K
+[2.337s]       |                                              [32m[K%f[m[K
+[2.337s] [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:30:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.337s]    30 |         for ( i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+[2.337s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[2.337s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.338s]                  from [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:1[m[K:
+[2.339s] [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:32:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.339s]    32 |             RCLCPP_WARN(this->get_logger(), [01;35m[K"%ld"[m[K,[32m[Kranges.at(i)[m[K);
+[2.339s]       |                                             [01;35m[K^~~~~[m[K [32m[K~~~~~~~~~~~~[m[K
+[2.339s]       |                                                            [32m[K|[m[K
+[2.339s]       |                                                            [32m[Kdouble[m[K
+[2.339s] [01m[K/home/berkay/Desktop/custom_robot/src/lidar_driver/src/lidar_subscriber.cpp:32:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.339s]    32 |             RCLCPP_WARN(this->get_logger(), "[01;36m[K%ld[m[K",ranges.at(i));
+[2.339s]       |                                              [01;36m[K~~^[m[K
+[2.339s]       |                                                [01;36m[K|[m[K
+[2.339s]       |                                                [01;36m[Klong int[m[K
+[2.339s]       |                                              [32m[K%f[m[K
+[7.148s] [100%] [32m[1mLinking CXX executable lidar_subscriber_node[0m
+[7.476s] [100%] Built target lidar_subscriber_node
+[7.488s] Invoked command in '/home/berkay/Desktop/custom_robot/build/lidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --build /home/berkay/Desktop/custom_robot/build/lidar_driver -- -j16 -l16
+[7.529s] Invoking command in '/home/berkay/Desktop/custom_robot/build/lidar_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --install /home/berkay/Desktop/custom_robot/build/lidar_driver
+[7.537s] -- Install configuration: ""
+[7.537s] -- Installing: /home/berkay/Desktop/custom_robot/install/lidar_driver/lib/lidar_driver/lidar_subscriber_node
+[7.543s] -- Set runtime path of "/home/berkay/Desktop/custom_robot/install/lidar_driver/lib/lidar_driver/lidar_subscriber_node" to ""
+[7.543s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/package_run_dependencies/lidar_driver
+[7.543s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/parent_prefix_path/lidar_driver
+[7.543s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/ament_prefix_path.sh
+[7.543s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/ament_prefix_path.dsv
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/path.sh
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/environment/path.dsv
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.bash
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.sh
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.zsh
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/local_setup.dsv
+[7.544s] -- Installing: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.dsv
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/ament_index/resource_index/packages/lidar_driver
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/cmake/lidar_driverConfig.cmake
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/cmake/lidar_driverConfig-version.cmake
+[7.544s] -- Up-to-date: /home/berkay/Desktop/custom_robot/install/lidar_driver/share/lidar_driver/package.xml
+[7.546s] Invoked command in '/home/berkay/Desktop/custom_robot/build/lidar_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/berkay/ros2_ws/install/my_package_python:/opt/ros/humble /usr/bin/cmake --install /home/berkay/Desktop/custom_robot/build/lidar_driver
