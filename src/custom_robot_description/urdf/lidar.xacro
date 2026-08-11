@@ -63,12 +63,19 @@
             </ray>
 
             <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <!-- Without this remapping the plugin publishes on an
+                         auto-generated topic name, not /scan. Keeping it
+                         explicit here is what lidar_subscriber_node and
+                         slam_toolbox (both expect /scan) rely on. -->
+                    <remapping>~/out:=scan</remapping>
+                </ros>
 
                 <!-- <output_type>sensor_msgs/PointCloud2</output_type> -->
                 <min_intensity>100.0</min_intensity>
 
                 <output_type>sensor_msgs/LaserScan</output_type>
-                <frameName>lidar_link</frameName>
+                <frame_name>lidar_link</frame_name>
             </plugin>
         </sensor>
     </gazebo>
