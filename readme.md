@@ -59,12 +59,15 @@ The project is structured as follows:
 
 ## Future Works
 
->
+> Roadmap, in the order we're tackling it:
 
-1.  Add more sensors to the robot model.
-2.  Implement advanced image processing algorithms.
-3.  Integrate with other ROS 2 packages for extended functionality.
-4.  Implement Autonomous Algorithm using camera and lidar sensor data.
+1.  **SIMD lidar processing** - process raw `/scan` data (polar-to-cartesian conversion, min-range/obstacle-distance reduction) using AVX2 intrinsics, with a scalar fallback and a measured speedup comparison. `[in progress]`
+2.  **GPU (CUDA) lidar processing** - port the same processing pipeline to a hand-written CUDA kernel and benchmark scalar vs SIMD vs GPU on the RTX 3060 to see where each approach actually pays off. `[planned]`
+3.  **Add a drone** - a simple quadrotor xacro model + Gazebo plugin, integrated alongside the existing ground robot so both can run together in the same world. `[planned]`
+4.  Add more sensors to the robot model.
+5.  Implement advanced image processing algorithms.
+6.  Integrate with other ROS 2 packages for extended functionality.
+7.  Implement an autonomous algorithm using camera and lidar sensor data.
 
 ## Notes
 
