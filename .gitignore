@@ -1,0 +1,13 @@
+# colcon / ROS 2 build artifacts
+build/
+install/
+log/
+
+# lidar_driver runtime output (written by lidar_subscriber_node at runtime)
+src/lidar_driver/**/range.txt
+src/lidar_driver/**/intensity.txt
+
+# editor / OS cruft
+.vscode/
+*.swp
+.DS_Store
